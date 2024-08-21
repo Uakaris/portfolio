@@ -1,13 +1,13 @@
 import React from "react";
 
-const Title = () => {
+const Title = ({children, id}) => {
     return (
-        <div className="py-5 text-center">
-            <p className="text-sm mt-2 opacity-50">
-                &copy; {new Date().getFullYear()} Charlie Jay. All rights reserved.
-            </p>
-        </div>
+        <h1
+        id={id && id}
+        className="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-stone-900">
+            {children}
+        </h1>
     )
 };
 
-export default Footer;
+export default Title;

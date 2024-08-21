@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "./title";
 
 const Contact = () => {
     return (
@@ -9,6 +10,7 @@ const Contact = () => {
                     method="POST"
                     className="flex flex-col w-full md:w-7/12"
                 >
+                    <Title>Contact</Title>
                     <input
                         type="text"
                         name="name"
@@ -19,7 +21,7 @@ const Contact = () => {
                         type="text"
                         name="email"
                         placeholder="Email"
-                        className="my-2 p-2 bg-transparent borde-2 rounded-md focus:outline-none"
+                        className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
                     />
                     <textarea
                         name="message"
