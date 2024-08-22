@@ -66,30 +66,34 @@ const App = () => {
 
     return (
         <>
-        <button
-          type="button"
-          onClick={handleThemeSwitch}
-          className="fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
-        >
-          {theme === 'dark' ? sun : moon}
-        </button>
-        <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
-          <div className="max-w-5xl w-11/12 mx-auto">
-            <div className="flex flex-col md:flex-row gap-8">
-              <div className="flex-1">
-                <Intro />
-              </div>
-              <div className="flex-1">
-              <Portfolio />
-              </div>
+            <button
+                type="button"
+                onClick={handleThemeSwitch}
+                className="fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
+            >
+                {theme === "dark" ? sun : moon}
+            </button>
+            <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+            <h1 className="flex justify-center pt-12 text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">
+                Charlie Jay
+            </h1>
+            
+                <div className="max-w-5xl w-11/12 mx-auto">
+                    <div className="flex flex-col md:flex-row gap-8">
+                        <div className="flex-1">
+                            <Intro />
+                        </div>
+                        <div className="flex-1">
+                            <Portfolio />
+                        </div>
+                    </div>
+                    <Skills />
+                    <Timeline />
+                    <Contact />
+                    <Footer />
+                </div>
             </div>
-            <Skills />
-            <Timeline />
-            <Contact />
-            <Footer />
-          </div>
-        </div>
-       </>
+        </>
     );
 };
 

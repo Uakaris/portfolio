@@ -1,30 +1,30 @@
 import React from "react";
 import { useState } from "react";
 
-
 const Intro = () => {
     return (
-        <div className="flex flex-col pt-16 pb-6">
-            <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">
-                Charlie Jay
-            </h1>
-            <a 
+        <div className="flex flex-col pt-12 pb-6  ">
+            {/* <p className="flex justify-center text-base md:text-xl mb-3 font-medium">
+                Full-Stack Software Engineer
+            </p> */}
+            <a
                 className="border-2 dark:border-white rounded-md"
                 href="https://www.westwoodpizza.com.au/"
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 <img
-                    src="src/assets/me.jpg"
+                    src="src/assets/Black Technology LinkedIn Banner.png"
                     alt="Charlie"
                     className="h-36 md:h-48 object-cover cursor-pointer"
                 />
             </a>
-            <p className="text-base md:text-xl mb-3 font-medium">
-                Full-Stack Software Engineer
-            </p>
-            <p className="flex flex-row space-x-10 md:text-4xl pb-4">
-                <a href="https://github.com/Uakaris" target="_blank" rel="noopener noreferrer">
+            <p className="flex justify-center flex-row space-x-10 md:text-4xl pb-4 pt-8">
+                <a
+                    href="https://github.com/Uakaris"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <i className="fa-brands fa-square-github"></i>
                 </a>
                 <a
@@ -34,8 +34,11 @@ const Intro = () => {
                 >
                     <i className="fa-brands fa-linkedin"></i>
                 </a>
-                <a href=""><i className="fa-solid fa-file fa-sm"></i></a>
+                <a href="">
+                    <i className="fa-solid fa-file fa-sm"></i>
+                </a>
             </p>
+
             <p className="text-sm max-w-xl mb-6 font-bold">
                 I'm a Sydney based Junior Full-Stack Software engineer with a
                 proven track record in roles requiring high-level problem
@@ -71,4 +74,3 @@ const Intro = () => {
 };
 
 export default Intro;
-
