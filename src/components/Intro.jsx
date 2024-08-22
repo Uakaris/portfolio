@@ -15,7 +15,7 @@ const Intro = () => {
                 rel="noopener noreferrer"
             >
                 <img
-                    src="public/assets/me.jpg"
+                    src="src/assets/me.jpg"
                     alt="Charlie"
                     className="h-36 md:h-48 object-cover cursor-pointer"
                 />
