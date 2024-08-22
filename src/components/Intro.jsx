@@ -1,4 +1,6 @@
 import React from "react";
+import { useState } from "react";
+
 
 const Intro = () => {
     return (
@@ -8,6 +10,18 @@ const Intro = () => {
             </h1>
             <p className="text-base md:text-xl mb-3 font-medium">
                 Full-Stack Software Engineer
+            </p>
+            <p className="flex flex-row space-x-10 md:text-4xl pb-4">
+                <a href="https://github.com/Uakaris" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/charlie-jay-848848311/"
+                    target="_blank"
+                >
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href=""><i class="fa-solid fa-file fa-sm"></i></a>
             </p>
             <p className="text-sm max-w-xl mb-6 font-bold">
                 I'm a Sydney based Junior Full-Stack Software engineer with a
