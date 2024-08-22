@@ -8,6 +8,17 @@ const Intro = () => {
             <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">
                 Charlie Jay
             </h1>
+            <a 
+                className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
+                href="https://www.westwoodpizza.com.au/"
+                target="blank"
+            >
+                <img
+                    src="public/assets/me.jpg"
+                    alt="Charlie"
+                    className="w-full h-36 md:h-48 object-cover cursor-pointer"
+                />
+            </a>
             <p className="text-base md:text-xl mb-3 font-medium">
                 Full-Stack Software Engineer
             </p>
