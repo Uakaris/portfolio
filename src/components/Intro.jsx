@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
+import headerImg from "../assets/Black Technology LinkedIn Banner.png";
+
 const Intro = () => {
     return (
         <div className="flex flex-col pt-12 pb-6  ">
@@ -14,7 +16,7 @@ const Intro = () => {
                 rel="noopener noreferrer"
             >
                 <img
-                    src="src/assets/Black Technology LinkedIn Banner.png"
+                    src={headerImg}
                     alt="Charlie"
                     className="h-36 md:h-48 object-cover cursor-pointer"
                 />
