@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
+import Skills from "./components/Skills";
 
 const App = () => {
     const [theme, setTheme] = useState(null);
@@ -75,6 +76,7 @@ const App = () => {
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
+          <Skills />
           <Portfolio />
           <Timeline />
           <Contact />
