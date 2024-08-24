@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 import headerImg from "../assets/Black Technology LinkedIn Banner.png";
+import profilePic from "../assets/canvaMe.png";
 
 const Intro = () => {
     return (
@@ -16,7 +17,7 @@ const Intro = () => {
                 rel="noopener noreferrer"
             >
                 <img
-                    src={headerImg}
+                    src={profilePic}
                     alt="Charlie"
                     className="h-36 md:h-48 object-cover cursor-pointer"
                 />
