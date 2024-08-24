@@ -1,27 +1,22 @@
 import React from "react";
 import { useState } from "react";
 
-import headerImg from "../assets/Black Technology LinkedIn Banner.png";
+// import headerImg from "../assets/Black Technology LinkedIn Banner.png";
 import profilePic from "../assets/canvaMe.png";
 
 const Intro = () => {
     return (
-        <div className="flex flex-col pt-12 pb-6  ">
+        <div className="flex flex-col items-center pt-12 pb-6  ">
             {/* <p className="flex justify-center text-base md:text-xl mb-3 font-medium">
                 Full-Stack Software Engineer
             </p> */}
-            <a
-                className="border-2 dark:border-white rounded-md"
-                href="https://www.westwoodpizza.com.au/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
+            <div className="mb-4">
                 <img
                     src={profilePic}
                     alt="Charlie"
-                    className="h-36 md:h-48 object-cover cursor-pointer"
+                    className="h-36 md:h-48 cursor-pointer"
                 />
-            </a>
+            </div>
             <p className="flex justify-center flex-row space-x-10 md:text-4xl pb-4 pt-8">
                 <a
                     href="https://github.com/Uakaris"
@@ -42,7 +37,7 @@ const Intro = () => {
                 </a>
             </p>
 
-            <p className="text-sm max-w-xl mb-6 font-bold">
+            <p className="text-sm max-w-xl mb-6">
                 I'm a Sydney based Junior Full-Stack Software engineer with a
                 proven track record in roles requiring high-level problem
                 resolution and system optimisation.
