@@ -3,7 +3,7 @@ import profilePic from "../assets/canvaMe.png";
 
 const Intro = () => {
     return (
-        <div className="flex flex-col items-center pt-12 pb-6">
+        <div className="flex flex-col items-center pt-16 pb-6">
             <div className="pt-12 pb-12 pl-24 pr-24 border-2 border-stone-900 dark:border-white rounded-md overflow-hidden">
                 <div className="flex flex-col md:flex-row items-center mb-4">
                     <img
