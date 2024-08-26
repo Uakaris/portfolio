@@ -20,7 +20,7 @@ const Intro = () => {
                                 href="https://github.com/Uakaris"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="mr-4"
+                                className="ml-4 mr-4"
                             >
                                 <i className="fa-brands fa-square-github hover:animate-bounce"></i>
                             </a>
@@ -44,7 +44,7 @@ const Intro = () => {
                                 href="https://drive.google.com/file/d/1e_Cre-JW9N6c4uJfsc_WUu_M-VttVohc/view?usp=sharing"
                                 target="blank"
                                 rel="noopener noreferrer"
-                                className="mr-8"
+                                className="mr-6"
                             >
                                 <i className="fa-solid fa-file hover:animate-bounce"></i>
                             </a>

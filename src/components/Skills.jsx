@@ -5,7 +5,7 @@ import Title from "./title";
 
 const Skills = () => {
     return (
-        <div className="pt-16">
+        <div className="pt-12">
             <p className="flex justify-center pb-4">
                 <Title>Technical Skillset</Title>
             </p>
