@@ -8,11 +8,13 @@ const PortfolioItem = ({ title, imgUrl, stack, link, repo }) => {
             rel="noopener noreferrer"
             className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
         >
-            <img
-                src={imgUrl}
-                alt="portfolio"
-                className="w-full h-36 md:h-48 object-cover cursor-pointer"
-            />
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}> {/* 16:9 Aspect Ratio */}
+                <img
+                    src={imgUrl}
+                    alt="portfolio"
+                    className="absolute inset-0 w-full h-full object-cover"
+                />
+            </div>
             <div className="w-full p-4">
                 <div className="flex items-center justify-between mb-2 md:mb-3">
                     <h3 className="text-lg md:text-xl dark:text-white font-semibold">

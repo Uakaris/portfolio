@@ -32,36 +32,37 @@ const Intro = () => {
                             >
                                 <i className="fa-brands fa-linkedin hover:animate-bounce"></i>
                             </a>
-                            <a href="mailto:charliejbjay@gmail.com"
+                            <a
+                                href="mailto:charliejbjay@gmail.com"
                                 target="blank"
                                 rel="noopener noreferrer"
                                 className="mr-4"
                             >
-                                <i class="fa-solid fa-envelope hover:animate-bounce"></i>
+                                <i className="fa-solid fa-envelope hover:animate-bounce"></i>
                             </a>
                             <a
                                 href="https://drive.google.com/file/d/1e_Cre-JW9N6c4uJfsc_WUu_M-VttVohc/view?usp=sharing"
                                 target="blank"
                                 rel="noopener noreferrer"
-                                className="mr-4"
+                                className="mr-8"
                             >
                                 <i className="fa-solid fa-file hover:animate-bounce"></i>
                             </a>
-                            <span>Full-Stack Software Engineer</span>
+                            <span className="text-base">Full-Stack Software Engineer</span>
                         </p>
                     </div>
                 </div>
-
-                <p className="text-sm max-w-xl mb-6">
-                    Hi, I'm Charlie. A Sydney based, Junior Full-Stack Software
-                    engineer. I love creating simple and functional applications
-                    that are fun to interact with. I recently graduated from
-                    General Assembly's Software Engineering Bootcamp and am on
-                    the lookout for my first role as a software engineer. I'm
-                    excited to begin applying the skills I have studied at
-                    General Assembly and am looking for a role that fosters the
-                    growth and development of their junior developers. I cannot
-                    wait to establish myself as a valued member of a tech team.
+                <p className="text-m max-w-xl mx-auto text-center mb-6">
+                    Hi, I'm Charlie. A Full-Stack Software engineer based in
+                    Sydney, Australia. I love creating simple and functional
+                    applications that are fun to interact with. I recently
+                    graduated from General Assembly's Software Engineering
+                    Bootcamp and am on the lookout for my first role as a
+                    software engineer. I'm excited to begin applying the skills
+                    I have studied at General Assembly and am looking for a role
+                    that fosters the growth and development of their junior
+                    developers. I cannot wait to establish myself as a valued
+                    member of a tech team.
                 </p>
             </div>
         </div>
