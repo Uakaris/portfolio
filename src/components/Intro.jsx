@@ -32,7 +32,12 @@ const Intro = () => {
                             >
                                 <i className="fa-brands fa-linkedin hover:animate-bounce"></i>
                             </a>
-                            <a href="" className="mr-4">
+                            <a
+                                href="https://drive.google.com/file/d/1e_Cre-JW9N6c4uJfsc_WUu_M-VttVohc/view?usp=sharing"
+                                target="blank"
+                                rel="noopener noreferrer"
+                                className="mr-4"
+                            >
                                 <i className="fa-solid fa-file hover:animate-bounce"></i>
                             </a>
                             <span>Full-Stack Software Engineer</span>
