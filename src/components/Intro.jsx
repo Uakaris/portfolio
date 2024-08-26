@@ -52,7 +52,7 @@ const Intro = () => {
                         </p>
                     </div>
                 </div>
-                <p className="text-m max-w-xl mx-auto text-center mb-6">
+                <p className="text-m max-w-xl mx-auto text-left mb-6">
                     Hi, I'm Charlie. A Full-Stack Software engineer based in
                     Sydney, Australia. I love creating simple and functional
                     applications that are fun to interact with. I recently
