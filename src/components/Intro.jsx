@@ -11,11 +11,11 @@ const Intro = () => {
                         alt="Charlie"
                         className="h-36 md:h-48 cursor-pointer mb-4 md:mb-0 md:mr-8"
                     />
-                    <div className="flex flex-col items-start">
-                        <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">
+                    <div className="flex flex-col">
+                        <h1 className="text-4xl text-center md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">
                             Charlie Jay
                         </h1>
-                        <p className="text-base md:text-xl mb-3 font-medium transition-all">
+                        <p className="text-base text-center md:text-xl mb-3 font-medium transition-all">
                             <a
                                 href="https://github.com/Uakaris"
                                 target="_blank"

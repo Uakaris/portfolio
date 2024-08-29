@@ -5,7 +5,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Intro from "./components/Intro";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
 import Skills from "./components/Skills";
