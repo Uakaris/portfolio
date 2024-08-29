@@ -40,14 +40,14 @@ const Intro = () => {
                             >
                                 <i className="fa-solid fa-envelope hover:animate-bounce"></i>
                             </a>
-                            <a
+                            {/* <a
                                 href="https://drive.google.com/file/d/1S2aJSux8AjyaTTlR3Te-HsJVDVqMRI51/view?usp=sharing"
                                 target="blank"
                                 rel="noopener noreferrer"
                                 className="mr-6"
                             >
                                 <i className="fa-solid fa-file hover:animate-bounce"></i>
-                            </a>
+                            </a> */}
                             <span className="text-base">Full-Stack Software Engineer</span>
                         </p>
                     </div>
