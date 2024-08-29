@@ -41,7 +41,7 @@ const Intro = () => {
                                 <i className="fa-solid fa-envelope hover:animate-bounce"></i>
                             </a>
                             <a
-                                href="https://drive.google.com/file/d/1gaoONmNnZUkqzujskzd0Mx1gpz1Rdo4z/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1S2aJSux8AjyaTTlR3Te-HsJVDVqMRI51/view?usp=sharing"
                                 target="blank"
                                 rel="noopener noreferrer"
                                 className="mr-6"
