@@ -8,7 +8,9 @@ const PortfolioItem = ({ title, imgUrl, stack, link, repo }) => {
             rel="noopener noreferrer"
             className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
         >
-            <div className="relative w-full" style={{ paddingTop: "56.25%" }}> {/* 16:9 Aspect Ratio */}
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+                {" "}
+                {/* 16:9 Aspect Ratio */}
                 <img
                     src={imgUrl}
                     alt="portfolio"
@@ -21,7 +23,7 @@ const PortfolioItem = ({ title, imgUrl, stack, link, repo }) => {
                         {title}
                     </h3>
                     <a href={repo} target="_blank" rel="noopener noreferrer">
-                        <i className="fa-brands fa-square-github text-lg md:text-3xl dark:text-white hover:animate-bounce"></i>
+                        <i className="fa-brands fa-square-github text-lg md:text-3xl dark:text-white animate-pulse"></i>
                     </a>
                 </div>
                 <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white">

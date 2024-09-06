@@ -1,6 +1,6 @@
 import React from "react";
 
-const SkillsItems = ({ icon }) => {
+const NewSkillsItems = ({ icon }) => {
     return (
         <ul className="hover:animate-ping cursor-pointer">
             <img src={icon} alt="Skill Icon" className="" />
@@ -8,4 +8,4 @@ const SkillsItems = ({ icon }) => {
     );
 };
 
-export default SkillsItems;
+export default NewSkillsItems;
