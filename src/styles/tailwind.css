@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes gradientAnimationLight {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+@keyframes gradientAnimationDark {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/* Light mode animation */
+.animated-bg-light {
+    background: linear-gradient(45deg, #2A629A, #FFDA78, #FF7F3E); /* Example light mode colors */
+    background-size: 400% 400%;
+    animation: gradientAnimationLight 10s ease infinite;
+    backdrop-filter: blur(50px);
+}
+
+/* Dark mode animation */
+.animated-bg-dark {
+    background: linear-gradient(45deg, #000000, #16232a, hsl(160, 96%, 10%)); /* Example dark mode colors */
+    background-size: 400% 400%;
+    animation: gradientAnimationDark 8s ease infinite;
+    backdrop-filter: blur(50px);
+}

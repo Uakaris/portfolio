@@ -12,7 +12,7 @@ const Footer = () => {
     }, []);
     return (
         <footer
-            className={`py-5 text-center bg-white dark:bg-stone-900 ${
+            className={`py-5 text-center ${
                 fade ? "animate-fade-in-blur" : "opacity-0"
             }`}
         >

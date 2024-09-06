@@ -4,8 +4,8 @@ const NavBar = () => {
     return (
         <div className="pt-8">
             {/* wrap the whole thing in a container to avoid issues with margin top */}
-            <div className="relative max-w-screen-lg mx-auto bg-white bg-opacity-70 group-hover:opacity-100 transition-opacity duration-300 rounded-full shadow-lg">
-                <nav className="flex justify-between items-center p-4">
+            <div className="relative max-w-screen-lg mx-auto border-2 border-stone-900 dark:border-white bg-white bg-opacity-20 group-hover:opacity-100 transition-opacity duration-300 rounded-full shadow-lg">
+                <nav className="flex justify-between items-center font-bold p-4">
                     <ul className="flex space-x-4 w-full">
                         <li className="flex-1 text-center">
                             <Link
