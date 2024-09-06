@@ -1,6 +1,11 @@
 export default [
     {
-        year: 'Today',
+        year:'Today',
+        title: 'Honing my craft',
+        details: "Since graduating from General Assembly's Software Engineer Bootcamp I have been spending my days working on this portfolio and other projects to hone my skills. I am on the lookout for my first software engineering role and when I'm not coding I have been looking for and applying for jobs that peak my interest. This is the first time in my life that I have been offically unemployed. It's a funny feeling but I am enjoying the freedom and really trying to make the most of my time. If you are wanting to get in contact with me whether it be about a job or if you simple want to collaborate, please reach out! My contact details can be found in the 'About' section of this site."
+    },
+    {
+        year: '2024',
         title: 'General Assembly Software Engineering Bootcamp',
         duration: '3 months',
         details: "From May to August 2024, I was immersed in General Assembly's fast-paced 12-week bootcamp, designed to mimic real-world tech environments. I've honed skills in team collaboration, frequent deployment, and problem-solving. My projects include developing a browser-based memory game, building a secure full-stack application with Node.js and MongoDB, and contributing to a group project involving React and Express. I also created a dynamic React app for tracking Formula 1 data, integrating third-party APIs and custom visualisations.",
