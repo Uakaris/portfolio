@@ -26,18 +26,16 @@
     }
 }
 
-/* Light mode animation */
 .animated-bg-light {
-    background: linear-gradient(45deg, #2A629A, #FFDA78, #FF7F3E); /* Example light mode colors */
+    background: linear-gradient(45deg, #2A629A, #FFDA78, #FF7F3E, #ffffff);
     background-size: 400% 400%;
     animation: gradientAnimationLight 10s ease infinite;
     backdrop-filter: blur(50px);
 }
 
-/* Dark mode animation */
 .animated-bg-dark {
-    background: linear-gradient(45deg, #000000, #16232a, hsl(160, 96%, 10%)); /* Example dark mode colors */
+    background: linear-gradient(45deg, #000000, #16232a, hsl(160, 96%, 10%));
     background-size: 400% 400%;
-    animation: gradientAnimationDark 8s ease infinite;
+    animation: gradientAnimationDark 10s ease infinite;
     backdrop-filter: blur(50px);
 }
