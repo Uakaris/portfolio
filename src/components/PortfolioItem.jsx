@@ -6,7 +6,7 @@ const PortfolioItem = ({ title, imgUrl, stack, link, repo }) => {
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
+            className="border-2 border-stone-900 dark:border-white bg-white bg-opacity-20 group-hover:opacity-100 transition-opacity duration-300 rounded-md overflow-hidden"
         >
             <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
                 {" "}
