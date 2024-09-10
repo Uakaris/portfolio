@@ -30,7 +30,7 @@ const PortfolioItem = ({ title, imgUrl, stack, link, repo }) => {
                     {stack.map((item, index) => (
                         <span
                             key={index}
-                            className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 dark:border-white rounded-md"
+                            className="inline-block px-2 py-1 font-semibold bg-black bg-opacity-20 rounded-md"
                         >
                             {item}
                         </span>

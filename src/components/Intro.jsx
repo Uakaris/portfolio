@@ -19,7 +19,7 @@ const Intro = ({ handleThemeSwitch }) => {
                 fade ? "animate-fade-in-blur" : "opacity-0"
             }`}
         >
-            <div className="pt-12 pb-12 px-24 border-2 border-stone-900 dark:border-white bg-white bg-opacity-10 group-hover:opacity-100 transition-opacity duration-300 rounded-md overflow-hidden">
+            <div className="pt-12 pb-12 px-24  bg-white bg-opacity-10 group-hover:opacity-100 transition-opacity duration-300 rounded-md overflow-hidden">
                 <div className="flex flex-col md:flex-row items-center mb-4">
                     <img
                         src={profilePic}
