@@ -1,8 +1,8 @@
 export default [
     {
         year:'Today',
-        title: 'Honing my craft',
-        details: "Since graduating from General Assembly's Software Engineer Bootcamp I have been spending my days working on this portfolio and other projects to hone my skills. I am on the lookout for my first software engineering role and when I'm not coding I have been looking for and applying for jobs that peak my interest. This is the first time in my life that I have been offically unemployed. It's a funny feeling but I am enjoying the freedom and really trying to make the most of my time. If you are wanting to get in contact with me whether it be about a job or if you simple want to collaborate, please reach out! My contact details can be found in the 'About' section of this site."
+        title: 'Practise, Practise, Practise',
+        details: "Since graduating from General Assembly's Software Engineer Bootcamp I have been spending my days working on this portfolio and other projects to hone my skills. I am on the lookout for my first software engineering role and when I'm not coding I have been looking for and applying for jobs that peak my interest. This is the first time in my life that I have been offically unemployed. It's a funny feeling but I am enjoying the freedom and really trying to make the most of my time. If you are wanting to get in contact with me whether it be about a job or if you simply want to collaborate, please reach out! My contact details can be found in the 'About' section of this site."
     },
     {
         year: '2024',
