@@ -22,7 +22,7 @@ export default [
         title: "LiftVault",
         imgUrl: liftVaultImg,
         stack: ["Mongoose", "Express", "Node", "CSS"],
-        link: "https://lifts-tracker-8df7c3ccd50b.herokuapp.com/",
+        link: "https://real-project-2.onrender.com/",
         repo: "https://github.com/Uakaris/Real-Project-2",
     },
     {
