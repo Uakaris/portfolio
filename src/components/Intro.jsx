@@ -60,6 +60,14 @@ const Intro = ({ handleThemeSwitch }) => {
                             >
                                 <i className="fa-solid fa-envelope hover:animate-bounce"></i>
                             </a>
+                            <a
+                                href="https://drive.google.com/file/d/1xlpJrkQ6c5Jp85Ul4ms8SnAGGhyIWmLd/view?usp=sharing"
+                                target="blank"
+                                rel="noopener noreferrer"
+                                className="mr-4"
+                            >
+                                <i className="fa-solid fa-file hover:animate-bounce"></i>
+                            </a>
                             <span className="text-base">
                                 Full-Stack Software Engineer
                             </span>
