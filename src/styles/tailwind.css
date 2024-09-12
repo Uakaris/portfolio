@@ -27,7 +27,8 @@
 }
 
 .animated-bg-light {
-    background: linear-gradient(45deg, #2A629A, #FFDA78, #FF7F3E, #ffffff);
+    /* background: linear-gradient(45deg, #2A629A, #FFDA78, #FF7F3E, #ffffff); */
+    background: linear-gradient(45deg, grey, #e6a86f, hsla(0, 9%, 52%, 0.732), hsla(315, 73%, 54%, 0.867));
     background-size: 400% 400%;
     animation: gradientAnimationLight 10s ease infinite;
     backdrop-filter: blur(50px);
