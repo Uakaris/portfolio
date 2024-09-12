@@ -17,18 +17,18 @@ const NavBar = () => {
                         </li>
                         <li className="flex-1 text-center">
                             <Link
-                                to="portfolio/skills"
-                                className="hover:text-blue-400"
-                            >
-                                Skills
-                            </Link>
-                        </li>
-                        <li className="flex-1 text-center">
-                            <Link
                                 to="portfolio/projects"
                                 className="hover:text-blue-400"
                             >
                                 Projects
+                            </Link>
+                        </li>
+                        <li className="flex-1 text-center">
+                            <Link
+                                to="portfolio/skills"
+                                className="hover:text-blue-400"
+                            >
+                                Skills
                             </Link>
                         </li>
                         {/* <li className="flex-1 text-center">

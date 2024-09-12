@@ -19,17 +19,17 @@ export default [
         repo: "https://github.com/sarmaakondi/word-nerd-herd-client",
     },
     {
-        title: "LiftVault",
-        imgUrl: liftVaultImg,
-        stack: ["Mongoose", "Express", "Node", "CSS"],
-        link: "https://real-project-2.onrender.com/",
-        repo: "https://github.com/Uakaris/Real-Project-2",
-    },
-    {
         title: "Memory Game",
         imgUrl: memGameImg,
         stack: ["HTML", "CSS", "JavaScript"],
         link: "https://uakaris.github.io/Project-1/",
         repo: "https://github.com/Uakaris/Project-1",
+    },
+    {
+        title: "LiftVault",
+        imgUrl: liftVaultImg,
+        stack: ["Mongoose", "Express", "Node", "CSS"],
+        link: "https://real-project-2.onrender.com/",
+        repo: "https://github.com/Uakaris/Real-Project-2",
     },
 ];
