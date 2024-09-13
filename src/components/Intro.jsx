@@ -42,7 +42,7 @@ const Intro = ({ handleThemeSwitch }) => {
                                 rel="noopener noreferrer"
                                 className="mr-4"
                             >
-                                <i className="fa-brands fa-square-github transition-transform duration-300 transform hover:scale-150 hover:shadow-lg"></i>
+                                <i className="fa-brands fa-square-github cursor-pointer transition-transform duration-300 transform hover:scale-150 hover:shadow-lg"></i>
                             </a>
                             <a
                                 href="https://www.linkedin.com/in/charlie-jay-848848311/"
@@ -50,7 +50,7 @@ const Intro = ({ handleThemeSwitch }) => {
                                 rel="noopener noreferrer"
                                 className="mr-4"
                             >
-                                <i className="fa-brands fa-linkedin transition-transform duration-300 transform hover:scale-150 hover:shadow-lg"></i>
+                                <i className="fa-brands fa-linkedin cursor-pointer transition-transform duration-300 transform hover:scale-150 hover:shadow-lg"></i>
                             </a>
                             <a
                                 href="mailto:charliejbjay@gmail.com"
@@ -58,7 +58,7 @@ const Intro = ({ handleThemeSwitch }) => {
                                 rel="noopener noreferrer"
                                 className="mr-4"
                             >
-                                <i className="fa-solid fa-envelope transition-transform duration-300 transform hover:scale-150 hover:shadow-lg"></i>
+                                <i className="fa-solid fa-envelope cursor-pointer transition-transform duration-300 transform hover:scale-150 hover:shadow-lg"></i>
                             </a>
                             <a
                                 href="https://drive.google.com/file/d/1xlpJrkQ6c5Jp85Ul4ms8SnAGGhyIWmLd/view?usp=sharing"
@@ -66,7 +66,7 @@ const Intro = ({ handleThemeSwitch }) => {
                                 rel="noopener noreferrer"
                                 className="mr-4"
                             >
-                                <i className="fa-solid fa-file transition-transform duration-300 transform hover:scale-150 hover:shadow-lg"></i>
+                                <i className="fa-solid fa-file cursor-pointer transition-transform duration-300 transform hover:scale-150 hover:shadow-lg"></i>
                             </a>
                             <span className="text-base">
                                 Full-Stack Software Engineer

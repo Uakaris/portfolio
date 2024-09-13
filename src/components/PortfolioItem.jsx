@@ -23,7 +23,7 @@ const PortfolioItem = ({ title, imgUrl, stack, link, repo }) => {
                         {title}
                     </h3>
                     <a href={repo} target="_blank" rel="noopener noreferrer">
-                        <i className="fa-brands fa-square-github text-lg md:text-3xl dark:text-white animate-pulse transition-transform duration-300 transform hover:scale-110"></i>
+                        <i className="fa-brands fa-square-github cursor-pointer text-lg md:text-3xl dark:text-white animate-pulse transition-transform duration-300 transform hover:scale-110"></i>
                     </a>
                 </div>
                 <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white">

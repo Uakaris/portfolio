@@ -10,7 +10,7 @@ const NavBar = () => {
                         <li className="flex-1 text-center transition-transform duration-300 transform hover:scale-110">
                             <Link
                                 to="portfolio/"
-                                className="hover:text-blue-400"
+                                className="hover:text-blue-400 cursor-pointer"
                             >
                                 About
                             </Link>
@@ -18,7 +18,7 @@ const NavBar = () => {
                         <li className="flex-1 text-center transition-transform duration-300 transform hover:scale-110">
                             <Link
                                 to="portfolio/projects"
-                                className="hover:text-blue-400"
+                                className="hover:text-blue-400 cursor-pointer"
                             >
                                 Projects
                             </Link>
@@ -26,7 +26,7 @@ const NavBar = () => {
                         <li className="flex-1 text-center transition-transform duration-300 transform hover:scale-110">
                             <Link
                                 to="portfolio/skills"
-                                className="hover:text-blue-400"
+                                className="hover:text-blue-400 cursor-pointer"
                             >
                                 Skills
                             </Link>
@@ -37,7 +37,7 @@ const NavBar = () => {
                         <li className="flex-1 text-center transition-transform duration-300 transform hover:scale-110">
                             <Link
                                 to="portfolio/career"
-                                className="hover:text-blue-400"
+                                className="hover:text-blue-400 cursor-pointer"
                             >
                                 Career
                             </Link>
