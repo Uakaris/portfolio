@@ -76,7 +76,7 @@ const Intro = ({ handleThemeSwitch }) => {
                 </div>
                 <p className="text-m max-w-xl mx-auto xl:text-justify md:text-justify text-justify mb-6">
                     <span className="font-bold">
-                        I love creating simple and functional applications that
+                        I love creating simple, functional applications that
                         are fun to interact with.
                     </span>{" "}
                     I recently graduated from General Assembly's Software
