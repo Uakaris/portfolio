@@ -16,7 +16,7 @@ const TimelineItem = ({ year, title, duration, details }) => {
                         {duration}
                     </div>
                 </p>
-                <p className="my-2 text-base font-normal text-stone-800 dark:text-stone-400">
+                <p className="my-2 text-base font-normal text-stone-800 dark:text-stone-400 text-justify">
                     {details}
                 </p>
             </li>
