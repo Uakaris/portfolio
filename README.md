@@ -1,6 +1,6 @@
 # Project Information
 
-This is my current portolfio made to showcase my experience and recent projects. 
+This is my current working portfolio made to showcase my experience and recent projects. 
 
 ## Build
 
