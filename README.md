@@ -1,13 +1,13 @@
-# React + Vite
+# Project Information
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my current portolfio made to showcase my experience and recent projects. 
 
-Currently, two official plugins are available:
+## Build
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The portfolio was made using React.
 
-https://icons8.com/icons/set/programming-language-typescript
+## Credits
 
-<a href="https://www.flaticon.com/free-icons/aws" title="aws icons">Aws icons created by ViconsDesign - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">Bootstrap icons created by Freepik - Flaticon</a>
+Contact icons were sourced from [Font Awesome](https://fontawesome.com/search?o=r&f=classic)
+
+Technical Skills Icons were sourced from [Flaticon](https://www.flaticon.com/)
