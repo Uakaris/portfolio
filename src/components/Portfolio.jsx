@@ -15,7 +15,7 @@ const Portfolio = () => {
     }, []);
 
     return (
-        <div className={`pt-4 mx-16 ${fade ? "animate-fade-in-blur" : "opacity-0"}`}>
+        <div className={`pt-4 mx-8 ${fade ? "animate-fade-in-blur" : "opacity-0"}`}>
             <p className="flex justify-center pt-8 pb-6">
                 <Title>Recent Projects</Title>
             </p>

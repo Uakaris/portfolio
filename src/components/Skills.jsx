@@ -17,8 +17,8 @@ const Skills = () => {
     }, []);
 
     return (
-        <div className={`pt-12 mx-16 ${fade ? "animate-fade-in-blur" : "opacity-0"}`}>
-            <p className="flex justify-center pb-12">
+        <div className={`pt-12 mx-8 ${fade ? "animate-fade-in-blur" : "opacity-0"}`}>
+            <p className="flex justify-center text-center pb-12">
                 <Title>Current Technical Skillset</Title>
             </p>
             <div className="flex flex-col md:flex-row items-center justify-center pb-32">
@@ -28,7 +28,7 @@ const Skills = () => {
                     ))}
                 </div>
             </div>
-            <p className="flex justify-center pb-12">
+            <p className="flex justify-center text-center pb-12">
                 <Title>Technical Skills I'm Working On</Title>
             </p>
             <div className="flex flex-col md:flex-row items-center justify-center pb-12">

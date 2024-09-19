@@ -16,7 +16,7 @@ const Timeline = () => {
 
     return (
         <div
-            className={`flex flex-col md:flex-row items-center justify-center my-12 px-4 ${
+            className={`flex flex-col md:flex-row items-center justify-center my-12 mx-8 ${
                 fade ? "animate-fade-in-blur" : "opacity-0"
             }`}
         >
