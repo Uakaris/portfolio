@@ -14,11 +14,11 @@ const Intro = ({ handleThemeSwitch }) => {
 
     return (
         <div
-            className={`flex flex-col items-center my-16 px-4 ${
+            className={`flex flex-col items-center my-16 mx-4 ${
                 fade ? "animate-fade-in-blur" : "opacity-0"
             }`}
         >
-            <div className="pt-12 pb-12 px-24 bg-white bg-opacity-10 group-hover:opacity-100 transition-opacity duration-300 rounded-md overflow-hidden">
+            <div className="pt-12 pb-12 px-8 md:px-24 bg-white bg-opacity-10 group-hover:opacity-100 transition-opacity duration-300 rounded-md overflow-hidden mx-4">
                 <div className="flex flex-col md:flex-row items-center mb-4">
                     <div className="relative group">
                         <img
@@ -74,10 +74,10 @@ const Intro = ({ handleThemeSwitch }) => {
                         </p>
                     </div>
                 </div>
-                <p className="text-m max-w-xl mx-auto xl:text-justify md:text-justify text-justify mb-6">
+                <p className="text-m max-w-xl mx-auto xl:text-justify md:text-justify text-justify my-6">
                     <span className="font-bold">
-                        I love creating simple, functional applications that
-                        are fun to interact with.
+                        I love creating simple, functional applications that are
+                        fun to interact with.
                     </span>{" "}
                     I recently graduated from General Assembly's Software
                     Engineering Bootcamp and am on the lookout for my first role

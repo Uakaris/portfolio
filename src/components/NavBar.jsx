@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        <div className="pt-8">
+        <div className="pt-8 mx-12">
             {/* wrap the whole thing in a container to avoid issues with margin top */}
             <div className="relative max-w-screen-lg mx-auto bg-white bg-opacity-10 group-hover:opacity-100 transition-opacity duration-300 rounded-full shadow-lg">
-                <nav className="flex justify-between items-center font-bold p-4">
+                <nav className="flex justify-between items-center font-bold p-3">
                     <ul className="flex space-x-4 w-full dark:text-white">
                         <li className="flex-1 text-center transition-transform duration-300 transform hover:scale-110">
                             <Link

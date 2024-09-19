@@ -17,7 +17,7 @@ const Skills = () => {
     }, []);
 
     return (
-        <div className={`pt-12 ${fade ? "animate-fade-in-blur" : "opacity-0"}`}>
+        <div className={`pt-12 mx-16 ${fade ? "animate-fade-in-blur" : "opacity-0"}`}>
             <p className="flex justify-center pb-12">
                 <Title>Current Technical Skillset</Title>
             </p>
