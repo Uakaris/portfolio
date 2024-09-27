@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from "react";
+import { useHackerEffect } from "../hooks/useHackerEffect";
 import profilePic from "../assets/canvaMe.png";
 
 const Intro = ({ handleThemeSwitch }) => {
     const [fade, setFade] = useState(false);
+    const triggerEffect = useHackerEffect("#hacker-text");
+
+    useEffect(() => {
+        triggerEffect();
+    }, [triggerEffect]);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -68,7 +74,11 @@ const Intro = ({ handleThemeSwitch }) => {
                             >
                                 <i className="fa-solid fa-file cursor-pointer transition-transform duration-300 transform hover:scale-150 hover:shadow-lg"></i>
                             </a>
-                            <span className="text-base">
+                            <span
+                                className="text-base"
+                                // id="hacker-text"
+                                // data-value="Full-Stack Software Engineer"
+                            >
                                 Full-Stack Software Engineer
                             </span>
                         </p>

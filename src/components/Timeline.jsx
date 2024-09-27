@@ -5,6 +5,7 @@ import Title from "./title";
 
 const Timeline = () => {
     const [fade, setFade] = useState(false);
+    
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -19,6 +20,7 @@ const Timeline = () => {
             className={`flex flex-col md:flex-row items-center justify-center my-12 mx-8 ${
                 fade ? "animate-fade-in-blur" : "opacity-0"
             }`}
+            id="timeline"
         >
             <div className="w-full md:w-7/12">
                 <p className="flex justify-center pb-6">

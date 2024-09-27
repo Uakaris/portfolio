@@ -28,9 +28,14 @@
 
 .animated-bg-light {
     /* background: linear-gradient(45deg, #2A629A, #FFDA78, #FF7F3E, #ffffff); */
-    background: linear-gradient(45deg, grey, #e6a86f, hsla(0, 9%, 52%, 0.732), hsla(315, 73%, 54%, 0.867));
+    background: linear-gradient(
+        135deg,
+        #e6a86f,
+        hsla(0, 9%, 52%, 0.732),
+        hsla(315, 73%, 54%, 0.476)
+    );
     background-size: 400% 400%;
-    animation: gradientAnimationLight 10s ease infinite;
+    animation: gradientAnimationLight 15s ease infinite;
     backdrop-filter: blur(50px);
 }
 
@@ -39,4 +44,27 @@
     background-size: 400% 400%;
     animation: gradientAnimationDark 10s ease infinite;
     backdrop-filter: blur(50px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: "poppins", sans-serif;
+}
+
+#root {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
 }
