@@ -14,32 +14,42 @@ import postgresImg from "../assets/postgres.png";
 export default [
     {
         icon: jsImg,
+        title: "JavaScript",
     },
     {
         icon: htmlImg,
+        title: "HTML",
     },
     {
         icon: cssImg,
+        title: "CSS",
     },
     {
         icon: pythonImg,
+        title: "Python",
     },
     {
         icon: reactImg,
+        title: "React",
     },
     {
         icon: djangoImg,
+        title: "Django",
     },
     {
         icon: nodeImg,
+        title: "Node.js",
     },
     {
         icon: mongoImg,
+        title: "MongoDB",
     },
     {
         icon: expressImg,
+        title: "Express.js",
     },
     {
         icon: postgresImg,
+        title: "PostgreSQL",
     },
 ];

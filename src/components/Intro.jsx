@@ -90,14 +90,15 @@ const Intro = ({ handleThemeSwitch }) => {
                         fun to interact with.
                     </span>{" "}
                     I recently graduated from General Assembly's Software
-                    Engineering Bootcamp and am on the lookout for my first role
-                    as a software engineer. I'm excited to begin applying the
-                    skills I have studied at General Assembly and am looking for
-                    a role that fosters the growth and development of their
-                    junior developers. I cannot wait to establish myself as a
-                    valued member of a tech team. If you would like to get in
-                    touch you can do so by clicking the{" "}
-                    <span className="font-bold">mail</span> or{" "}
+                    Engineering Bootcamp and am now working as a Full-Stack
+                    Developer on contract at the Rural Doctors Network. In this
+                    role, I build and maintain applications using Lightning Web
+                    Components and Apex, contributing to innovative solutions
+                    that streamline processes and improve user experiences. I am
+                    passionate about continuous learning and am excited to keep
+                    growing as a developer while collaborating with talented
+                    tech teams. If you would like to get in touch, you can do so
+                    by clicking the <span className="font-bold">mail</span> or{" "}
                     <span className="font-bold">LinkedIn</span> icon above.
                 </p>
             </div>
