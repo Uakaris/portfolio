@@ -1,7 +1,7 @@
 export default [
     {
         year: "Today",
-        title: "Practise, Practise, Practise",
+        title: "Rural Doctors Network - Rural Health Pro",
         details:
             "Today, I’m working as a Full-Stack Developer on contract at the Rural Doctors Network, and I couldn’t be more excited about this opportunity! My role involves building and maintaining Lightning Web Components (LWC) for the front end and writing Apex code for the back end. I’m also diving into creating Apex triggers to automate processes and ensure everything runs smoothly behind the scenes. It’s been a fantastic experience working in an Agile environment, collaborating with a talented team, and using tools like Jira to keep things on track.This is my first step into the industry, and I’m soaking up every opportunity to learn and grow. I’m loving the challenge and the chance to make a meaningful impact. ",
     },
